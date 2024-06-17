@@ -1,0 +1,121 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container{
+display: flex;
+flex-direction: row;
+height: 100%;
+}
+
+.left{
+    background-image: url('https://w0.peakpx.com/wallpaper/468/568/HD-wallpaper-play-bunny-mature-pink-playboy.jpg');
+    min-width: 300px;
+    background-size: cover;
+    flex: 0 1 45%;
+ 
+    background-position-y: 70%;
+    background-position-x: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left h2{
+    width: 100%;
+    height: 15%;
+   font-size: 64px;
+}
+.left div{
+    background-color: rgba(0,0,0,.59);
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.right p{
+    flex: 1 1 35%;  
+   vertical-align: middle;
+    text-align: left;
+    padding-inline: 3em;
+    font-size: 26px;
+    margin-top: 4em;
+
+}
+.right fieldset{
+    width: 100%;
+    flex: 1 1 30%;
+   display: flex;
+   flex-direction: column;
+   border: 1px solid lightgray;
+   box-shadow: -5px 10px 10px -5px rgba(0,0,0,0.59);
+   padding: initial;
+   padding: 2em;
+}
+
+main.right{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex: 0 1 55%;
+    justify-content: center;
+    background-color: rgba(213,61,118,0.93)
+}
+.input_box{
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 1em;
+}
+fieldset .input_row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+fieldset .input_row{
+    margin-bottom: 1em;
+}
+.last{
+    margin: 3em auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 1 1 25%;
+}input{
+    height: 33px;
+   min-width: 250px;
+   max-width: 350px;
+   border-radius: 4px;
+}
+.last p{
+    text-align: center;
+}
+.last button{
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100%;
+    background-color: rgba(0,0,0,.54);
+    color: white;
+    font-size: 20px;
+    border-color: rgba(0,0,0,.81)
+}
+.last p{
+    padding: 10px;
+    margin-top: 1em;
+}
+.input_box+.input_box{
+    margin-right: 0;
+}
+fieldset input{
+    width: 500px;
+        height: 33px;
+       min-width: 250px;
+       max-width: 350px;
+       border-radius: 4px;
+}
