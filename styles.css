@@ -98,6 +98,12 @@ height: 100%;
    min-width: 200px;
    max-width: 100%;
    border-radius: 4px;
+   outline: none;
+}
+.right fieldset input:focus{
+    outline: 1px solid violet;
+    border: 1px solid violet;
+    box-shadow: 10px 10px 50px -1px rgba(213,111,255,1);
 }
 
 .right input[type="password"]:valid{
